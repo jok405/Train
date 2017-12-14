@@ -1,0 +1,77 @@
+p {
+  font-family: Times New Roman;
+}
+
+body {
+	margin: 0;
+	background: #000; 
+}
+.panel-title {
+  font-weight: 23px;
+
+}
+
+.container {
+
+  width: 1050px;
+  height: 580px;
+  
+}
+
+.panel-body2 {
+  opacity: 60%;
+  background-image: url("stpunk_Icon.jpg");
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+  border-radius: 23px; 
+}
+.jumbotron {
+  background-image: url("metal_Jumbtron.jpg");
+  background-size: contain;
+  
+  opacity: 30%;
+ 
+}
+
+h1 {
+  font-size: 3rem;
+  font-style: bold;
+  text-transform: uppercase;
+  margin-top: 0;
+  letter-spacing: .39rem;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+video { 
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  transform: translateX(-50%) translateY(-50%);
+  transition: 1s opacity;
+}
+
+button {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  background:rgba(0,0,0,0.55);
+  padding: .5rem;
+  transition: .6s background; 
+}
+button:hover{
+  background:rgba(0,0,0,0.39);
+}
+
+@media screen and (max-device-width: 800px) {
+  html { background-image: url("assets/css/train.jpg") #000 no-repeat center center fixed; }
+  #bgvid { display: none; }
+}
