@@ -9,12 +9,13 @@
 
 // Initialize Firebase
 var config = {
-  apiKey: "AIzaSyCcPFcbAjIsgXGQwE-A3AcOXkeD40qypE8",
-  authDomain: "train-times-93583.firebaseapp.com",
-  databaseURL: "https://train-times-93583.firebaseio.com",
-  storageBucket: "train-times-93583.appspot.com"
+    apiKey: "AIzaSyDk54v4NLw-Nmk11SOb6ju-KPbf0WgJhWw",
+    authDomain: "steampunktrain.firebaseapp.com",
+    databaseURL: "https://steampunktrain.firebaseio.com",
+    projectId: "steampunktrain",
+    storageBucket: "steampunktrain.appspot.com",
+    messagingSenderId: "1041364846525"
 };
-
 firebase.initializeApp(config);
 
 var trainData = firebase.database();
